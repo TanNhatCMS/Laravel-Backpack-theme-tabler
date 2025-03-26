@@ -13,6 +13,6 @@ class MenuDropdownColumn extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('backpack.theme-tabler::components.menu-dropdown-column');
+        return view('tannhatcms.theme-tabler::components.menu-dropdown-column');
     }
 }
