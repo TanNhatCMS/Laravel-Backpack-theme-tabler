@@ -31,7 +31,7 @@
         "orchestra/testbench": "~5|~6"
     },
     "replace": {
-        "backpack/theme-tabler": "*"
+        "backpack/theme-tabler": "^1.2"
     },
     "autoload": {
         "psr-4": {
