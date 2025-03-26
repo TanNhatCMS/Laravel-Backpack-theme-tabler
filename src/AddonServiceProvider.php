@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Blade;
 
 class AddonServiceProvider extends ThemeServiceProvider
 {
-    protected string $vendorName = 'backpack';
+    protected string $vendorName = 'tannhatcms';
     protected string $packageName = 'theme-tabler';
 
     public function boot(): void
