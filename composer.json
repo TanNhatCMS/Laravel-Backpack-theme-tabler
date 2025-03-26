@@ -30,6 +30,9 @@
         "phpunit/phpunit": "~9.0",
         "orchestra/testbench": "~5|~6"
     },
+    "replace": {
+        "backpack/theme-tabler": "*"
+    },
     "autoload": {
         "psr-4": {
             "Backpack\\ThemeTabler\\": "src/"
