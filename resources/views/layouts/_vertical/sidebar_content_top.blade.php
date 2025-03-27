@@ -2,7 +2,7 @@
     @if (backpack_auth()->guest())
         <li class="nav-item">
             <a class="nav-link" href="{{ route('backpack.auth.login') }}">
-                <i class="nav-icon la la-sign-in-alt d-block d-lg-none d-xl-block"></i> <span>{{ trans('backpack::base.login') }}</span>
+                <i class="nav-icon la la-sign-in-alt d-block d-lg-none d-xl-block"></i> <span>{{ trans('tannhatcms::base.login') }}</span>
             </a>
         </li>
     @else
@@ -22,12 +22,12 @@
                 @if(config('backpack.base.setup_my_account_routes'))
                     <a class="dropdown-item" href="{{ route('backpack.account.info') }}">
                         <i class="nav-icon la la-lock d-block"></i>
-                        {{ trans('backpack::base.my_account') }}
+                        {{ trans('tannhatcms::base.my_account') }}
                     </a>
                 @endif
                 <a class="dropdown-item text-danger" href="{{ backpack_url('logout') }}">
                     <i class="nav-icon la la-sign-out-alt d-block"></i>
-                    {{ trans('backpack::base.logout') }}
+                    {{ trans('tannhatcms::base.logout') }}
                 </a>
             </div>
         </li>

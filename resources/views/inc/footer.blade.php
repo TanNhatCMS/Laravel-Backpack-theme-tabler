@@ -6,7 +6,7 @@
                     <div class="col-lg-auto ms-lg-auto">
                         <ul class="list-inline list-inline-dots mb-0">
                             <li class="list-inline-item">
-                                {{ trans('backpack::base.powered_by') }}
+                                {{ trans('tannhatcms::base.powered_by') }}
                                 <a href="https://backpackforlaravel.com?ref=panel_footer_link" rel="noopener" target="_blank">Backpack for Laravel</a>.
                             </li>
                         </ul>
@@ -16,7 +16,7 @@
                     <div class="col-12 col-lg-auto mt-3 mt-lg-0">
                         <ul class="list-inline list-inline-dots mb-0">
                             <li class="list-inline-item">
-                                {{ trans('backpack::base.handcrafted_by') }}
+                                {{ trans('tannhatcms::base.handcrafted_by') }}
                                 <a href="{{ backpack_theme_config('developer_link') }}" rel="noopener" target="_blank">{{ backpack_theme_config('developer_name') }}</a>.
                             </li>
                         </ul>

@@ -10,11 +10,11 @@
 <ul class="nav navbar-nav d-flex flex-row flex-shrink-0 @if(backpack_theme_config('html_direction') == 'rtl') me-0 @endif">
     @if (backpack_auth()->guest())
         <li class="nav-item">
-            <a class="nav-link" href="{{ route('backpack.auth.login') }}">{{ trans('backpack::base.login') }}</a>
+            <a class="nav-link" href="{{ route('backpack.auth.login') }}">{{ trans('tannhatcms::base.login') }}</a>
         </li>
         @if (config('backpack.base.registration_open'))
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('backpack.auth.register') }}">{{ trans('backpack::base.register') }}</a>
+                <a class="nav-link" href="{{ route('backpack.auth.register') }}">{{ trans('tannhatcms::base.register') }}</a>
             </li>
         @endif
     @else

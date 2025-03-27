@@ -1,7 +1,7 @@
 @foreach(backpack_theme_config('options.colorModes') as $mode => $icon)
 @php
-    $description = trans('backpack.theme-tabler::theme-tabler.color-mode-description', [
-        'mode' => trans('backpack.theme-tabler::theme-tabler.color-mode-'.$mode),
+    $description = trans('tannhatcms.theme-tabler::theme-tabler.color-mode-description', [
+        'mode' => trans('tannhatcms.theme-tabler::theme-tabler.color-mode-'.$mode),
     ]);
 @endphp
 <button

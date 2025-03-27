@@ -16,7 +16,7 @@
                         </div>
                         @if (config('backpack.base.registration_open'))
                             <div class="text-center mt-4">
-                                <a tabindex="6" href="{{ route('backpack.auth.login') }}">{{ trans('backpack::base.login') }}</a>
+                                <a tabindex="6" href="{{ route('backpack.auth.login') }}">{{ trans('tannhatcms::base.login') }}</a>
                             </div>
                         @endif
                     </div>
